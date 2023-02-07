@@ -54,7 +54,7 @@ const updateSceneStatus = (
  * @param options.mainIndex number  主场景的数组索引，用于搭配 zoomGap
  * @returns Function  清除同步状态的监听函数。
  */
-export function syncScene(
+export function syncSceneHelper(
   scenes: Scene[],
   options?: {
     zoomGap?: number;
